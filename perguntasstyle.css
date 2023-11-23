@@ -1,0 +1,54 @@
+
+.container {
+    width: 60%; 
+    margin: 0 auto;
+  }
+  
+  h1{
+    text-align: center; 
+    color: rgb(255, 255, 255); 
+  }
+  h2 {
+    text-align: center; 
+    color: rgb(255, 255, 255); 
+  }
+  
+  .panel {
+    margin-bottom: 20px;
+  }
+  
+  .panel-title {
+    font-size: 18px;
+  }
+  
+  .panel-title a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: #ffffff;
+  }
+  
+
+  .panel-title a:hover {
+    background-color: #115783;
+  }
+
+  .panel-body {
+    padding: 15px;
+    border: 1px solid #dddddd;
+    border-top: none;
+    background-color: #fff;
+  }
+  
+  body{
+    background-color: black;
+  }
+
+  .well {
+    background-color: #02426d;; 
+    border: 1px solid #ddd;
+  }
+  
+  label {
+    color: #ffffff;
+  }
