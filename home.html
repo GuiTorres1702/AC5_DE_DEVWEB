@@ -47,48 +47,291 @@
 
 <!--começo da estrutura do HTML5-->
   </head>
-  <body id="body">
-    <div>
-      <header id="header">
-        <img src="src/img/home_icon.png" width="120px" />
-        <ul>
-          <li></li>
-        </ul>
-      </header>
+  <body>
+    <!--background-->
+    
+    <!--Final Background-->
+    <!-- Barra de Navegação-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="src/img/home_icon.png" alt="" srcset="" style="width: 40px;"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Como Ingressar</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Computação Quântica
+              </a>
+              <li class="nav-item">
+                <a class="nav-link" href="perguntas.html">Perguntas Frenquentes!</a>
+              </li>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Sobre a Computação Quântica</a></li>
+                <li><a class="dropdown-item" href="#">Aplicações Práticas</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Desafios e Oportunidades</a></li>
+                <li><a class="dropdown-item" href="#">Matemática da Computação Quântica</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Procurar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+<!--Final da Barra-->
+<!--TEXT BASE-->
+<h1 class="h1-1">Introdução à Computação Quântica</h1>
+<h4 class="h2">
+  A Computação Quântica surge como uma fronteira
+  promissora no campo da ciência da computação, marcando uma revolução iminente no mundo da
+  tecnologia. </h2>
+<p class="lh-2" style="font-weight: 600 ;">o contrário da computação clássica, baseada em bits tradicionais, a
+  computação quântica utiliza qubits1, que podem existir em múltiplos estados
+  simultaneamente, explorando os princípios da superposição e emaranhamento quântico. <br>
+  Desde sua concepção teórica, inicialmente proposta por Richard Feynman e David Deutsch, a
+  computação quântica evoluiu consideravelmente, com avanços notáveis em algoritmos
+  quânticos e a construção de protótipos de computadores quânticos.</p>
+
+<!--FINAL TEXTE BASE-->
+<!--CARDS-->
+<div class="card-group">
+  <div class="card">
+    <img class="card-img-top" src="src/img/wallpaperflare-cropped.jpg" alt="Imagem de capa do card">
+    <div class="card-body">
+      <h5 class="card-title">Título do card</h5>
+      <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este conteúdo é um pouco maior, para demonstração.</p>
     </div>
-    <!--Background Image-->
-    <div class="section_img">
-      <figure id="back_img">
-        <img id="img_wallpaper" src="src/img/wallpaperflare-cropped.jpg" alt="WallpaperHome" width="100%" />
-        <figcaption id="back_text">O que é <br />Computação Quântica?</figcaption>
-      </figure>
+    <div class="card-footer">
+      <small class="text-muted">Atualizados 3 minutos atrás</small>
     </div>
-    <!--Sidebar-->
-    <div>
-      <aside class="aside">
-        <ul>
-          <li>Introdução à Computação Quântica</li>
-          <li>O Site e sua Missão</li>
-          <li>Computação Quântica vs. Clássica</li>
-        </ul>
-      </aside>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="src/img/wallpaperflare-cropped.jpg" alt="Imagem de capa do card">
+    <div class="card-body">
+      <h5 class="card-title">Título do card</h5>
+      <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
     </div>
-    <div>
-      <section class="section">
-        <h1 class="h1"><strong>Introdução à Computação Quântica</strong></h1>
-        <h2 class="h2">
-          A Computação Quântica surge como uma fronteira
-          promissora no campo da ciência da computação, marcando uma revolução iminente no mundo da
-          tecnologia. 
-          <p>Ao contrário da computação clássica, baseada em bits tradicionais, a
-          computação quântica utiliza qubits1, que podem existir em múltiplos estados
-          simultaneamente, explorando os princípios da superposição e emaranhamento quântico. 
-          <p>Desde
-          sua concepção teórica, inicialmente proposta por Richard Feynman e David Deutsch, a
-          computação quântica evoluiu consideravelmente, com avanços notáveis em algoritmos
-          quânticos e a construção de protótipos de computadores quânticos.
-        </h2>
-      </section>
+    <div class="card-footer">
+      <small class="text-muted">Atualizados 3 minutos atrás</small>
     </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="src/img/wallpaperflare-cropped.jpg" alt="Imagem de capa do card">
+    <div class="card-body">
+      <h5 class="card-title">Título do card</h5>
+      <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este card tem o conteúdo ainda maior que o primeiro, para mostrar a altura igual, em ação.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Atualizados 3 minutos atrás</small>
+    </div>
+  </div>
+</div>
+<!--Final do CARDS-->
+<!--Tabela-->
+<br><br><br>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td >Larry the Bird</td>
+      <td >@twitter</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+<!--Final tabela-->
+
+<br><br><br><br><br><br>
+<!--Grafico-->
+<!-- Styles -->
+<style>
+  #chartdiv {
+    width: 100%;
+    height: 500px;
+  }
+  </style>
+  
+  <!-- Resources -->
+  <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+  <script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
+  <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+  
+  <!-- Chart code -->
+  <script>
+  am5.ready(function() {
+  
+  // Create root element
+  // https://www.amcharts.com/docs/v5/getting-started/#Root_element
+  var root = am5.Root.new("chartdiv");
+  
+  
+  // Set themes
+  // https://www.amcharts.com/docs/v5/concepts/themes/
+  root.setThemes([
+    am5themes_Animated.new(root)
+  ]);
+  
+  
+  // Create chart
+  // https://www.amcharts.com/docs/v5/charts/xy-chart/
+  var chart = root.container.children.push(am5xy.XYChart.new(root, {
+    panX: true,
+    panY: true,
+    wheelX: "panX",
+    wheelY: "zoomX",
+    pinchZoomX: true
+  }));
+  
+  // Add cursor
+  // https://www.amcharts.com/docs/v5/charts/xy-chart/cursor/
+  var cursor = chart.set("cursor", am5xy.XYCursor.new(root, {}));
+  cursor.lineY.set("visible", false);
+  
+  
+  // Create axes
+  // https://www.amcharts.com/docs/v5/charts/xy-chart/axes/
+  var xRenderer = am5xy.AxisRendererX.new(root, { minGridDistance: 30 });
+  xRenderer.labels.template.setAll({
+    rotation: -90,
+    centerY: am5.p50,
+    centerX: am5.p100,
+    paddingRight: 15
+  });
+  
+  xRenderer.grid.template.setAll({
+    location: 1
+  })
+  
+  var xAxis = chart.xAxes.push(am5xy.CategoryAxis.new(root, {
+    maxDeviation: 0.3,
+    categoryField: "country",
+    renderer: xRenderer,
+    tooltip: am5.Tooltip.new(root, {})
+  }));
+  
+  var yAxis = chart.yAxes.push(am5xy.ValueAxis.new(root, {
+    maxDeviation: 0.3,
+    renderer: am5xy.AxisRendererY.new(root, {
+      strokeOpacity: 0.1
+    })
+  }));
+  
+  
+  // Create series
+  // https://www.amcharts.com/docs/v5/charts/xy-chart/series/
+  var series = chart.series.push(am5xy.ColumnSeries.new(root, {
+    name: "Series 1",
+    xAxis: xAxis,
+    yAxis: yAxis,
+    valueYField: "value",
+    sequencedInterpolation: true,
+    categoryXField: "country",
+    tooltip: am5.Tooltip.new(root, {
+      labelText: "{valueY}"
+    })
+  }));
+  
+  series.columns.template.setAll({ cornerRadiusTL: 5, cornerRadiusTR: 5, strokeOpacity: 0 });
+  series.columns.template.adapters.add("fill", function(fill, target) {
+    return chart.get("colors").getIndex(series.columns.indexOf(target));
+  });
+  
+  series.columns.template.adapters.add("stroke", function(stroke, target) {
+    return chart.get("colors").getIndex(series.columns.indexOf(target));
+  });
+  
+  
+  // Set data
+  var data = [{
+    country: "USA",
+    value: 2025
+  }, {
+    country: "China",
+    value: 1882
+  }, {
+    country: "Japan",
+    value: 1809
+  }, {
+    country: "Germany",
+    value: 1322
+  }, {
+    country: "UK",
+    value: 1122
+  }, {
+    country: "France",
+    value: 1114
+  }, {
+    country: "India",
+    value: 984
+  }, {
+    country: "Spain",
+    value: 711
+  }, {
+    country: "Netherlands",
+    value: 665
+  }, {
+    country: "South Korea",
+    value: 443
+  }, {
+    country: "Canada",
+    value: 441
+  },
+  {
+    country: "Brasil'",
+    value: 200
+  }];
+  
+  xAxis.data.setAll(data);
+  series.data.setAll(data);
+  
+  
+  // Make stuff animate on load
+  // https://www.amcharts.com/docs/v5/concepts/animations/
+  series.appear(1000);
+  chart.appear(1000, 100);
+  
+  }); // end am5.ready()
+  </script>
+  
+  <!-- HTML -->
+  <div id="chartdiv"></div>
+<!--final grafico-->
+<!--Sessão de pergunta-->
+
+<!--Final de Sessão de pergunta-->
   </body>
 </html>
