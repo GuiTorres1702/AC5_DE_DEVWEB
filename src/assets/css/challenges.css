@@ -11,14 +11,3 @@
   display: grid;
   place-items: center;
 }
-
-.h1 {
-  text-align: center;
-  padding-top: 10px;
-}
-
-.h2 {
-  padding: 2%;
-  font-size: 1px;
-}
-

@@ -127,3 +127,9 @@ figure div img{
     z-index: -1;
 }
 
+.blabla {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4%;
+}

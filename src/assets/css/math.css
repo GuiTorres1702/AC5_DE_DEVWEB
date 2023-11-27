@@ -10,11 +10,3 @@
   place-items: center;
   background-color: #3a3b3c34;
 }
-
-#back_text {
-    position: absolute;
-    top: 110px;
-    right: 60% !important; 
-    font-size: 60px;
-    text-shadow: 2px 4px #0c0611;
-  }
