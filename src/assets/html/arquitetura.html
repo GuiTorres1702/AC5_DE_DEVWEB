@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Computadores Quânticos</title>
-    <link rel="stylesheet" href="../css/sobre.css" />
+    <link rel="stylesheet" href="../css/arquitetura.css" />
     <link rel="icon" href="../../img/home_icon.png" />
     <!--fontes-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -127,24 +127,24 @@
     <section class="content-text">
       <h1 class="h1">Como programar um computador quântico usando Qiskit:</h1>
       <p>Desenvolvida pela IBM, Qiskit Quantum SDK é um conjunto completo de recursos que simulam a computação quântica. Qiskit é baseada em python. <br><p>Para começar, vamos importar um “QuantumCircut” da biblioteca Qiskit.</p></p>
-            <img src="../../img/code1.png" alt="code1" width="300px" style="border-radius:30px;">
+      <img src="../../img/code1.png" alt="code1">
         <h1 class="h2"></h1>
         <p> Agora vamos criar um circuito quântico com dois registradores quânticos e dois registradores clássicos:</p>
-            <img src="../../img/code2.png" alt="code2" width="300px" style="border-radius:30px;">
+            <img src="../../img/code2.png" alt="code2" ">
         <h1 class="h3"></h1>
         <p>Os registradores quânticos são utilizados para computação quântica e os registradores clássicos guardam os resultados medidos (“measured results”)</p>
         <h1 class="h4"></h1>
         <p>O próximo passo vamos utilizar duas portas:</p>
-            <img src="../../img/code3.png" alt="code3" width="300px" style="border-radius:30px;">
+            <img src="../../img/code3.png" alt="code3"">
         <p>A porta Hadamard coloca o qubit no estado de sobreposição entre 0 e 1. Isso significa que tem uma chance igual de ser medido (“measured”) 0 ou 1.</p>
-        <img src="../../img/code4.png" alt="code" width="300px" style="border-radius:30px;">
+        <img src="../../img/code4.png" alt="code4">
         <h1 class="h5"></h1>
         <p>A porta não é constituída de dois qubits, o qubit de controle (“control qubit”) e o qubit de objetivo (“target qubit”) . Sua lógica é fácil de entender, se o “control qubit” for “0” o seu estado irá mudar para o “target qubit”, ou seja, “1”.</p>
         <p>Agora os qubits estão fortemente correlacionados, isto é, estão emaranhados. Então o último passo que precisamos fazer é as medidas (“measurements”) para conseguir todas as saídas, e para isso nós chamamos a função “measure_all”.</p>
-            <img src="../../img/code5.png" alt="code4" width="300px" style="border-radius:30px;">
+            <img src="../../img/code5.png" alt="code4">
     </section>
     <section class="content-text">
-            <img src="../../img/code.png" alt="code5" width="300px" style="border-radius:30px;">
+            <img src="../../img/code.png" alt="code5" >
       <p>Agora se rodar esse código algumas vezes em um computador quântico você perceberá que 50% dos outputs serão 00 e 50% serão 11, mas nunca serão 01 ou 10. Os 50/50 do primeiro qubit vem da sobreposição e enquanto não mudamos explicitamente o estado do segundo qubit ele será alterado de qualquer forma porque está emaranhado com o primeiro qubit então ele muda com o primeiro qubit.</p></section>
   </body>
 </html>
