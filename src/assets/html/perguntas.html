@@ -20,7 +20,7 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
         crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="AC5_DE_DEVWEB/home.css"/>
+    <link rel="stylesheet" href="../css/home.css"/>
     <!--Scripts-->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
             integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
@@ -40,47 +40,53 @@
 <body>
 <!-- Barra de Navegação-->
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <a class="navbar-brand" href="#"><img src="../../img/home_icon.png" id="img-perguntas"/></a>
-    <div class="container-fluid" style=" display: flex; align-items: center; align-content: center; flex-direction: column;">
-        
-        <button
-            class="navbar-toggler bg-light"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-        >
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../../../index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="comoingressar.html">Como Ingressar</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="perguntas.html">Perguntas Frenquentes!</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                       aria-expanded="false"> Computação Quântica </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="sobre.html">Sobre a Computação Quântica</a></li>
-                        <li><a class="dropdown-item" href="Suco.html">Aplicações Práticas</a></li>
-                        <li><hr class="dropdown-divider"/></li>
-                        <li><a class="dropdown-item" href="Challenges.html">Desafios e Oportunidades</a></li>
-                        <li><a class="dropdown-item" href="math.html">Matemática da Computação Quântica</a></li>
-                    </ul>
-                </li>
+  <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+      <img src="../../img/home_icon.png" id="img-perguntas" alt="Logo" style="width: 40px" />
+    </a>
+    <button
+      class="navbar-toggler bg-light"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../../../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="comoingressar.html">Como Ingressar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="perguntas.html">Perguntas Frenquentes!</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Computação Quântica </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="sobre.html">Sobre a Computação Quântica</a></li>
+              <li><a class="dropdown-item" href="Suco.html">Aplicações Práticas</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="Challenges.html">Desafios e Oportunidades</a></li>
+              <li><a class="dropdown-item" href="math.html">Matemática da Computação Quântica</a></li>
             </ul>
-        </div>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn btn-outline-success" type="submit">Procurar</button>
+        </form>
     </div>
+  </div>
 </nav>
 <!--Final da Barra-->
+
 <!--Conteudo-->
 <div>
     <section class="content-text"></section>

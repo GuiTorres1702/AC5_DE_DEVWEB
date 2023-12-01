@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ingressar</title>
+    
+        <!-- Lightbox2 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" integrity="sha512-oiJTDOcwg69NXzKw1jTCOCsxMNSNstqAnZGwySRDtgJ4rdpD8DqXXb6fUeu8e+fZJ5wHDejnJ27s12q1BRxN0A==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js" integrity="sha512-7g1Dtc9+EMXjr5lq8Gd4gG/z3PS6mz5xOJSxBHsylg3+7+x/7W4ZYVC3FIAEjzFWh9GXJB11yNVaE1jUyYzV2A==" crossorigin="anonymous"></script>
+    <!-- Fim Lightbox2 -->
+
     <link rel="stylesheet" href="../css/global.css" />
     <link rel="icon" href="../../img/home_icon.png" />
     <!--fontes-->
@@ -58,7 +64,7 @@
     <!-- Barra de Navegação-->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="src/img/home_icon.png" alt="" srcset="" style="width: 40px" /></a>
+        <a class="navbar-brand" href="#"><img src="../../img/home_icon.png" alt="" srcset="" style="width: 40px" /></a>
         <button
           class="navbar-toggler  bg-light"
           type="button"
@@ -128,8 +134,9 @@
         </ul>
         <h1 class="h1">Aplicações e Projetos</h1>
         <figure>
-          <div>
-            <img src="../../img/como ingressar aplica.jpg" width="100%">
+          <div id="lightbox">
+            <a href="../../img/como ingressar aplica.jpg" data-lightbox="zoomed-image" data-title="Como ingressar">
+            <img id="zoomed-image" src="../../img/como ingressar aplica.jpg" alt="Como ingressar">
           </div>
         </figure>
         

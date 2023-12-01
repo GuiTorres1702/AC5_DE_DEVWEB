@@ -4,7 +4,13 @@
   box-sizing: border-box;
 }
 
+/* General styles */
+body {
+  background-color: #18191a !important;
+  color: white !important;
+}
 
+/* Header Section */
 .section_img {
   font-size: 20px;
   text-align: center;
@@ -28,6 +34,7 @@
   text-shadow: 2px 4px #0c0611;
 }
 
+/* Navigation */
 .navbar.navbar-expand-lg.bg-body-tertiary {
   font-size: 20px;
   background-color: #242526 !important;
@@ -37,11 +44,6 @@
 .nav-link {
   color: white !important;
   text-shadow: 2px 4px #0c0611;
-}
-
-body {
-  background-color: #18191a !important;
-  color: white !important;
 }
 
 .dropdown-menu.show {
@@ -57,94 +59,93 @@ body {
   background-color: #18191a;
 }
 
-.content-text {
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+  .content-text {
+    margin: 20px 5%;
+    background-color: #3a3b3c;
+    border-radius: 15px;
+    text-shadow: 2px 4px #0c0611;
+  }
 
-  margin: 50px 15% 0px 15%;
+  #lightbox img {
+    max-width: 100%;
+    max-height: 100%;
+  }
 
-  /* margin-top: 50px;
-  margin-left: 1%;
-  margin-right: 5%; Alterei o valor para percentual */
-  background-color: #3a3b3c;
-  border-radius: 15px;
-  text-shadow: 2px 4px #0c0611;
-
+  #lightbox-close {
+    font-size: 16px;
+  }
 }
+
+.content-text {
+  margin: 50px 15%;
+}
+
 
 .h1 {
   text-align: center;
-  padding-top: 15px;
-  font-size: 50px !important;
+  font-size: 2.5vw; /* Tamanho de fonte relativo à largura da viewport */
   margin-bottom: 15px;
 }
 
 
-
 p {
-  text-align: center;
-  text-indent: 50px;
-  font-size: 1.5em;
-  margin: 0 70px;
-}
-
-.content-text li{
-  margin: 0px 70px;
+  text-align: justify;
   font-size: 1.25em;
+  margin: 0 10px;
 }
 
-figure div img{
-  padding: 25px;
-    display: block;
-    margin: auto;
-  }
+.content-text li {
+  margin: 0 10px;
+  font-size: 1.1em;
+}
 
-  div.botao a {
-    text-decoration: none;
-    text-align: center;
-  }
+figure div img {
+  padding: 15px;
+  display: block;
+  margin: auto;
+}
 
-  div.botao a.box {
-    padding: 10px 30px;
-    background-color: #0044ff;
-    border-radius: 15px;
-    color: rgb(143, 143, 143);
-    margin-top: 10px;
-    margin-left: 45%;
-    }
+div.botao a {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
 
-  div.botao a:hover {
-    background-color:#00bbff;
-    color: white;
-  }
+div.botao a.box {
+  background-color: #0044ff;
+  color: rgb(143, 143, 143);
+}
 
-  body::before {
-    content: ''; 
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background-image: url("../../img/Ryan-gosling.webp");
-    background-size: cover;
-    background-position: 5px 10%;
-    background-repeat: no-repeat;
-    visibility: hidden;
-    z-index: -1;
+div.botao a:hover {
+  background-color: #00bbff;
+  color: white;
+}
+
+body::before {
+  background-position: 5px 20%; /* Adjusted background position */
 }
 
 .blabla {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 4%;
+  margin-top: 2%;
 }
 
-#img-perguntas{
-  width: 57px;
-  margin-top: -20px;
+#img-perguntas {
+  width: 40px;
+  margin-top: -10px;
 }
 
 #back_text_perguntas {
-  position: absolute;
-  top: 110px;
-  right: 67%; /* Alterei o valor para percentual */
-  font-size: 60px;
-  text-shadow: 2px 4px #0c0611;
+  right: 50%; /* Adjusted the value for percentual */
+  font-size: 40px;
 }
+
+figure img {
+  max-width: 100%;
+  height: auto;
+}
+
