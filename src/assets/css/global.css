@@ -29,6 +29,7 @@
 }
 
 .navbar.navbar-expand-lg.bg-body-tertiary {
+  font-size: 20px;
   background-color: #242526 !important;
   border-bottom: solid #3a3b3c 1px;
 }
@@ -66,6 +67,7 @@ body {
   background-color: #3a3b3c;
   border-radius: 15px;
   text-shadow: 2px 4px #0c0611;
+
 }
 
 .h1 {
@@ -132,4 +134,17 @@ figure div img{
   align-items: center;
   justify-content: center;
   margin-top: 4%;
+}
+
+#img-perguntas{
+  width: 57px;
+  margin-top: -20px;
+}
+
+#back_text_perguntas {
+  position: absolute;
+  top: 110px;
+  right: 67%; /* Alterei o valor para percentual */
+  font-size: 60px;
+  text-shadow: 2px 4px #0c0611;
 }
